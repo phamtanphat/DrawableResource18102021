@@ -8,8 +8,18 @@
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.AppCompatButton
+        android:text="Shape"
+        android:id="@+id/appCompatButtonShape"
         android:background="@drawable/bg_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/bg_button_statelist"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/appCompatButtonShape"
+        android:text="State list"
+        android:id="@+id/appCompatButtonStateList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>
